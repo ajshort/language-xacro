@@ -1,0 +1,25 @@
+{
+  "name": "language-xacro",
+  "version": "0.0.0",
+  "description": "Support for the Xacro XML macro language (used by ROS)",
+  "keywords": [
+    "xacro",
+    "xml",
+    "ros"
+  ],
+  "repository": "https://github.com/ajshort/language-xacro",
+  "license": "MIT",
+  "main": "./lib/xacro",
+  "activationCommands": {
+    "atom-workspace": [
+      "xacro:check",
+      "xacro:generate"
+    ]
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "language-python": "^0.43.0"
+  }
+}

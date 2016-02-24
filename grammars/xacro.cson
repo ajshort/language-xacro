@@ -1,0 +1,10 @@
+'name': 'Xacro'
+'scopeName': 'text.xml.xacro'
+'fileTypes': [
+  'xacro'
+]
+'patterns': [
+  {
+    'include': 'text.xml'
+  }
+]

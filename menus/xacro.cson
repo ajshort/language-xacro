@@ -1,0 +1,18 @@
+'menu': [
+  {
+    'label': 'Packages',
+    'submenu': [
+      'label': 'Xacro',
+      'submenu': [
+        {
+          'label': 'Check Syntax'
+          'command': 'xacro:check'
+        },
+        {
+          'label' : 'Generate XML',
+          'command': 'xacro:generate'
+        }
+      ]
+    ]
+  }
+]

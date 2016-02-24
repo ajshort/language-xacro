@@ -1,0 +1,31 @@
+'.text.xml.xacro':
+  'Argument':
+    'prefix': 'arg'
+    'body': '<xacro:arg name="${1:name}" default="${2:default}" />$0'
+  'Attribute':
+    'prefix': 'attr'
+    'body': '<xacro:attribute name="${1:name}" value="${2:value}" />$0'
+  'Element':
+    'prefix': 'el'
+    'body': '<xacro:element xacro:name="${1:name}">$2\n</xacro:element>'
+  'If':
+    'prefix': 'if'
+    'body': '<xacro:if value="${1:expr}">$2\n</xacro:if>'
+  'Include':
+    'prefix': 'inc'
+    'body': '<xacro:include filename="${1:.xacro}" />$0'
+  'Macro':
+    'prefix': 'macro'
+    'body': '<xacro:macro name="${1:name}" params="${2:params}">$3\n</xacro:macro>'
+  'Namespace':
+    'prefix': 'ns'
+    'body': 'xmlns:xacro="http://www.ros.org/wiki/xacro"'
+  'Property':
+    'prefix': 'prop'
+    'body': '<xacro:property name="${1:name}" value="${2:value}" />$0'
+  'Property block':
+    'prefix': 'propblock'
+    'body': '<xacro:property name="${1:name}">$2\n</xacro:property>'
+  'Unless':
+    'prefix': 'unless'
+    'body': '<xacro:unless value="${1:expr}">$2\n</xacro:unless>'
